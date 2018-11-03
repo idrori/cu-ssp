@@ -1,0 +1,8 @@
+##### Model Params #####
+
+Optimizer: rmsprop, lr=0.003, rho=0.9, epsilon=None, and add decay=0.5 after 15 epochs
+Epochs: 20
+Batch size: 64
+Training time: around 1200s per epoch
+Total params: 963,773
+Input representation: bigram amino acid sequences

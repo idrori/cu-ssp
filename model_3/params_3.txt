@@ -1,0 +1,10 @@
+optimizer: Adam
+beta_1: 0.8
+beta_2: 0.8
+epsilon: None
+amsgrad: False
+learning rate: 0.0025
+decay: 0.0001
+epochs: 6 
+batch size: 30
+running time: 527 seconds

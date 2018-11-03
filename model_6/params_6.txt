@@ -1,0 +1,11 @@
+Embedding length: 128
+Convolutional Layer 1: Channels:64, Kernel Size: 11
+Convolutional Layer 2: Channels:64, Kernel Size: 7
+Concatenation axis: 2
+Convolutional Layer 3: Channels:64, Kernel Size: 5
+Convolutional Layer 4: Channels:64, Kernel Size: 3
+Concatenation axis: 2
+Bidirectional CuDNNLSTM units: 128
+Epochs: 30
+Batch size: 128
+Optimizer: RMSprop
