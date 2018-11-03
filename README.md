@@ -48,3 +48,7 @@ Model 6: Convolutions and bidirectional LSTM
 Acknowledgments
 ---------------
 We would like to thank the 100 CS/DSI/Stats graduate students at Columbia University of the Fall 2018 Deep Learning course for their participation in an in class protein secondary structure prediction competition. The models which achieved top performance in the competition were invited to participate in this follow-up work, which lead to the discovery of new architectures with state of the art performance. We would like to thank Tomer Sidi of BGU for thorough examination of the correct measures used for performance comparison. We would like to thank Jian Zhou and Olga Troyanskaya of Princeton for making their CB6133 dataset available and for updating their CB6133 dataset splits following our work. Chen Keasar is partially supported by grants 1122/14 from the Israel Science Foundation (ISF).
+
+Q3 (left) and Q8 (right) secondary structure spheres of protein 1F52 in CB513 dataset:
+
+<img src="https://github.com/idrori/cu-ssp/blob/master/paper/figures/1f52_q3_spheres.png" height=300><img src="https://github.com/idrori/cu-ssp/blob/master/paper/figures/1f52_q8_spheres.png" height=300>
