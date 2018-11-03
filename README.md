@@ -14,17 +14,6 @@ Q3 (left) and Q8 (right) secondary structure spheres of protein 1AKD in CB513 da
 Models
 ------
 
-| Model .                                            | CB513 |
-| -------------------------------------------------- | ----- |
-| Ensemble of models 1-6                             | 70.5% |
-| Model 2: U-Net with convolution blocks             | 68.9% |
-| Model 1: Bidirectional GRU with convolution blocks | 68.7% |
-| Model 3: Temporal convolutional network            | 68.7% |
-| Model 5: Bidirectional LSTM with attention         | 68.4% |
-| Model 6: Convolutions and bidirectional LSTM       | 67.8% |
-| Model 4: Bidirectional GRUs                        | 67.5% |
-
-
 Model 1: Bidirectional GRU with convolution blocks
 <img src="https://github.com/idrori/cu-ssp/blob/master/paper/figures/model1.png">
 
