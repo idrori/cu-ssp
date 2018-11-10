@@ -1,6 +1,6 @@
 | Model \ Dataset        | cb513 |
 | ---------------------- | ----- |
-| Ensemble of models 1-5 | 70.3% |
+| Ensemble of models 1-6 | 70.5% |
 
 | Author       | Affiliation         | Email                     |
 | ------------ | ------------------- | ------------------------- |
