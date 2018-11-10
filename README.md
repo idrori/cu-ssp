@@ -8,7 +8,7 @@ We tackle the problem of protein secondary structure prediction using a common t
 
 Q3 (left) and Q8 (right) secondary structure spheres of protein 1AKD in CB513 dataset:
 
-<img src="https://github.com/idrori/cu-ssp/blob/master/paper/figures/1akd_q3_spheres.png" height=300><img src="https://github.com/idrori/cu-ssp/blob/master/paper/figures/1akd_q8_spheres.png" height=300>
+<img src="https://github.com/idrori/cu-ssp/blob/master/paper/figures/1akd_q3.png" height=300><img src="https://github.com/idrori/cu-ssp/blob/master/paper/figures/1akd_q8.png" height=300>
 
 
 Models
