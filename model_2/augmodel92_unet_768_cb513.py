@@ -89,7 +89,7 @@ with open(os.path.join(log_dir, 'tokenizer_decoder.pickle'), 'wb') as handle:
 
 ############################################
 # Dropout to prevent overfitting. 
-droprate = 0.25
+droprate = 0.3
 
 
 def conv_block(x, n_channels, droprate):
