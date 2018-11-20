@@ -1,6 +1,6 @@
 # cu-ssp
 
-Implementation of [High Quality Prediction of Protein Q8 Secondary Structure by Diverse Neural Network Architectures](https://github.com/idrori/cu-ssp/blob/master/paper/cu-ssp-nips-final.pdf),
+Implementation of [High Quality Prediction of Protein Q8 Secondary Structure by Diverse Neural Network Architectures](https://arxiv.org/abs/1811.07143),
 [Iddo Drori](https://www.cs.columbia.edu/~idrori), [Isht Dwivedi](http://www.ishtdwivedi.in), Pranav Shrestha, Jeffrey Wan, [Yueqi Wang](https://github.com/yueqiw), Yunchu He, Anthony Mazza, Hugh Krogh-Freeman, [Dimitri Leggas](https://www.college.columbia.edu/node/11468), Kendal Sandridge, [Linyong Nan](https://github.com/linyongnan), [Kaveri Thakoor](http://www.seismolab.caltech.edu/thakoor_k.html), Chinmay Joshi, Sonam Goenka, [Chen Keasar](https://www.cs.bgu.ac.il/~keasar), [Itsik Pe’er](http://www.cs.columbia.edu/~itsik)
 NIPS Workshop on Machine Learning for Molecules and Materials, 2018.
 
