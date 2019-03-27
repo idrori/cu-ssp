@@ -46,8 +46,8 @@ def to_seq(y):
 '''
 Getting Data
 '''
-cb513filename = 'cb513.npy'
-cb6133filename = 'cb6133.npy'
+cb513filename = '../data/cb513.npy'
+cb6133filename = '../data/cb6133.npy'
 cb6133filteredfilename = 'cb6133filtered.npy'
 
 cb513 = np.load(cb513filename)
