@@ -39,9 +39,9 @@ def load_augmented_data(npy_path, max_len):
     train_df = pd.DataFrame({'id': id_list, 'len': len_list, 'input': residue_str_list, 'expected': q8_str_list})
     return train_df, profile_padded_wrapped
 
-cb513filename = 'cb513.npy'
-cb6133filename = 'cb6133.npy'
-cb6133filteredfilename = 'cb6133filtered.npy'
+cb513filename = '../data/cb513.npy'
+cb6133filename = '../data/cb6133.npy'
+cb6133filteredfilename = '../data/cb6133filtered.npy'
 
 max_len =700
 train_df, profile_padded_wrapped = load_augmented_data(cb6133filename, max_len)
@@ -301,7 +301,7 @@ attention_4_3 = Activation('softmax')(attention_4_3)
 context_4_3 = dot([attention_4_3, x1_out], axes=[2, 1])
 x5_3_out_combined_context = concatenate([context_4_3, x5_out])
 
-out = Add()([x2_out_combined_context, \
+out = keras.layers.Add()([x2_out_combined_context, \
              x3_out_combined_context, x3_1_out_combined_context,\
              x4_out_combined_context, x4_1_out_combined_context, x4_2_out_combined_context, \
              x5_out_combined_context, x5_1_out_combined_context, x5_2_out_combined_context, x5_3_out_combined_context])

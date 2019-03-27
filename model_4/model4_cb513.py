@@ -48,7 +48,7 @@ Getting Data
 '''
 cb513filename = '../data/cb513.npy'
 cb6133filename = '../data/cb6133.npy'
-cb6133filteredfilename = 'cb6133filtered.npy'
+cb6133filteredfilename = '../data/cb6133filtered.npy'
 
 cb513 = np.load(cb513filename)
 cb6133 = np.load(cb6133filename)
