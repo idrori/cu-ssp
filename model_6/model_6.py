@@ -14,8 +14,8 @@ from keras import optimizers, initializers, constraints, regularizers
 from keras.engine.topology import Layer
 from tensorflow.keras.layers import Activation
 from tensorflow.layers import Flatten
-cb6133filename = 'cb6133filtered.npy'
-cb513 = 'cb513.npy'
+cb6133filename = '../data/cb6133filtered.npy'
+cb513 = '../data/cb513.npy'
 def load_augmented_data(npy_path, max_len):
     data = np.load(npy_path)
     residue_list = ['A', 'C', 'E', 'D', 'G', 'F', 'I', 'H', 'K', 'M', 'L', 'N', 'Q', 'P', 'S', 'R', 'T', 'W', 'V', 'Y', 'X','NoSeq']
